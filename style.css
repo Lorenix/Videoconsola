@@ -1,0 +1,38 @@
+body{
+    background-color: antiquewhite;   
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    text-align:;
+}
+
+div, .box1{
+    height: 500px;
+    width: 350px;
+    background-color: azure;
+    display: grid;
+    flex-direction: column;
+    margin-top: 150px;
+} 
+
+div, .screen{
+    height: 150px;
+    width: 100px;
+    background-color: aquamarine;
+    display: grid;
+    flex-direction: column;
+
+
+}
+
+div, .box_buttons{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(28, 151, 110);
+}

@@ -1,38 +1,129 @@
 body{
     background-color: antiquewhite;   
-    display: grid;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
 header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
-    text-align:;
+    color: rgb(144, 144, 148);
+    font-size: 55px;
+    text-align: center;
+    display: flex;
+    margin-top: 25px;
 }
 
-div, .box1{
-    height: 500px;
+.box_Game_Boy{
     width: 350px;
-    background-color: azure;
-    display: grid;
+    height: 550px;  
+    background-color: rgb(230, 109, 109);
+    display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 100px;
+    border-radius: 15px 15px 80px 15px;
+    justify-content: center;
+    align-items: center;
+    
 } 
 
-div, .screen{
-    height: 150px;
-    width: 100px;
-    background-color: aquamarine;
-    display: grid;
+.screen{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(149, 160, 156);
+    display: flex;
     flex-direction: column;
-
+    border-radius: 10px 10px 60px 10px;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
-div, .box_buttons{
-    height: 50px;
-    width: 50px;
-    background-color: rgb(28, 151, 110);
+.logotype{
+    font-family:   fantasy;  
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    display: inline;
+    align-self: flex-start;
+    padding-left: 25px;
+
+}
+
+.font{
+    font: caption;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.box_2{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.box_buttons{
+    width: 100px;
+    height:40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: silver;
+    border-radius: 50px 50px ;
+}
+
+.b_button{
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 50px 50px 50px 50px;
+
+}
+
+.a_button{
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+.directions{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+}
+
+.grid_directions_2{
+    background-color: grey;
+    border: 1px solid black;
+    grid-area: 1/2;
+    
+}
+
+.grid_directions_1{
+    grid-area:2/4;
+}
+
+.menu{
+    width: 15vl;
+    height: 15vl;
+    background-color: grey;
+    
+}
+
+.sound{
+    width: 10vw;
+    height: 10vw;
+    background-color: silver
+    ;
 }

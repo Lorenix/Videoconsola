@@ -2,7 +2,7 @@ body{
     background-color: antiquewhite;   
     display: flex;
     align-items: center;
-    justify-content: center;
+    align-content: center;
     flex-direction: column;
 
 }
@@ -13,7 +13,7 @@ header{
     font-size: 55px;
     text-align: center;
     display: flex;
-    margin-top: 25px;
+    justify-content: center;
 }
 
 .box_Game_Boy{
@@ -22,11 +22,10 @@ header{
     background-color: rgb(230, 109, 109);
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    border-radius: 15px 15px 80px 15px;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 100px;
+    border-radius: 15px 15px 80px 15px;
 } 
 
 .screen{
@@ -76,7 +75,9 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: silver;
-    border-radius: 50px 50px ;
+    border-radius: 50px 50px;
+    order: 1;
+
 }
 
 .b_button{
@@ -96,34 +97,25 @@ header{
 
 
 .directions{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: cornflowerblue;
-    display: grid;
-    grid-template-columns: 10% 10% 10% 10%;
+    display: flexbox;
+    order: 3;
 }
 
-.grid_directions_2{
-    background-color: grey;
-    border: 1px solid black;
-    grid-area: 1/2;
-    
-}
-
-.grid_directions_1{
-    grid-area:2/4;
-}
 
 .menu{
     width: 15vl;
     height: 15vl;
     background-color: grey;
-    
+    display: flex;
+    order: 2;
 }
 
 .sound{
-    width: 10vw;
-    height: 10vw;
-    background-color: silver
-    ;
+    width: 75px;
+    height: 75px;
+    background-color: silver;
+    order: 4;
 }

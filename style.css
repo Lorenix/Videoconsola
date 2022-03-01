@@ -9,11 +9,11 @@ body {
 header { 
     font-family: 'Seymour One', sans-serif;
     color: rgb(255, 255, 255);        
-    font-size: 45px;    
+    font-size: 55px;    
     text-align: center; 
     display: flex; 
     justify-content: center; 
-
+    margin-top: 5rem;
 }
 
 .box_Game_Boy {

@@ -1,121 +1,156 @@
-body{
-    background-color: antiquewhite;   
+body { 
+    background-color: antiquewhite; 
     display: flex;
     align-items: center;
     align-content: center;
-    flex-direction: column;
+    flex-direction: column; 
+}   
 
+header { 
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; color: rgb(61, 61, 182);        
+    font-size: 55px;    
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
 }
 
-header{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(144, 144, 148);
-    font-size: 55px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.box_Game_Boy{
+.box_Game_Boy {
     width: 350px;
-    height: 550px;  
-    background-color: rgb(230, 109, 109);
+    height: 550px;
+    background-color: rgb(137, 236, 190);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    border-radius: 15px 15px 80px 15px;
-} 
+    border-radius: 15px 15px 80px;
+    box-shadow: 20px 20px 20px; 
+}
 
-.screen{
+.screen { 
     width: 300px;
-    height: 250px;
+    height: 250px; 
     background-color: rgb(149, 160, 156);
     display: flex;
     flex-direction: column;
-    border-radius: 10px 10px 60px 10px;
+    border-radius: 10px 10px 60px;
     align-items: center;
     justify-content: center;
-    
-
 }
 
-.logotype{
-    font-family:   fantasy;  
-    color: rgb(0, 0, 0);
+.screen2 {
+    height: 200px;
+    width: 250px;
+    background: url(mariobrox.jpg);
+    background-size: cover;
+}
+
+.logotype { 
+    font-family: fantasy; color: rgb(0, 0, 0);
     font-size: 12px;
     display: inline;
     align-self: flex-start;
     padding-left: 25px;
-
 }
 
-.font{
-    font: caption;
+.font { 
+    font-variant: normal;
     font-family: cursive;
     font-weight: 500;
-    font-size: large;
+    font-size: large; 
 }
 
-
-.box_2{
+.box_2 { 
     width: 300px;
     height: 160px;
     display: flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    align-items: end;
-    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
 }
 
-.box_buttons{
-    width: 100px;
-    height:40px;
-    display: flex;
-    justify-content: space-around;
-    background-color: silver;
-    border-radius: 50px 50px;
-    order: 1;
-
-}
-
-.b_button{
-    width: 35px;
-    height: 35px;
-    background-color: brown;
-    border-radius: 50px 50px 50px 50px;
-
-}
-
-.a_button{
-    width: 35px;
-    height: 35px;
-    background-color: brown;
-    border-radius: 50px 50px 50px 50px;
-}
-
-
-.directions{
+.directions { 
     width: 80px;
     height: 80px;
-    background-color: cornflowerblue;
-    display: flexbox;
-    order: 3;
+    background-color: rgb(137, 236, 190);
+    display: grid;
+    grid-template-columns: auto auto auto; border-radius: 25px; 
 }
 
+.grid_directions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-.menu{
-    width: 15vl;
-    height: 15vl;
-    background-color: grey;
+.grid_color {
+    background-color: rgb(180, 180, 180);
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 5px;
+}
+
+.menu { 
+    height: 150px; 
+    display: flex; 
+    align-items: flex-end; 
+}
+
+.button-menu {
+    height: 19px;
+    width: 46px; 
+    background: rgb(180, 180, 180);
+    border-radius: 8px;
+    text-align: center;
+    font-family: monospace;
+    transform: rotate(314deg)
+}
+
+.box_buttons {
+    width: 100px;
+    height: 40px;
     display: flex;
-    order: 2;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(180 180 180);
+    border-radius: 50px; 
+    transform: rotate(337deg);
 }
 
-.sound{
+.b_button {
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 50px;
+    text-align: center;
+    font-family: fantasy; color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline;
+    
+}
+
+.a_button {
+    width: 35px;
+    height: 35px;
+    background-color: brown;
+    border-radius: 50px; 
+    text-align: center;
+    font-family: fantasy; color: rgb(255, 255, 255);
+    font-size: 25px;
+    display: inline;
+}
+
+.botones-sonido {
+    height: 151px;
+    width: 75px; 
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.sound {
     width: 75px;
     height: 75px;
-    background-color: silver;
-    order: 4;
+    background-color: rgba(192, 192, 192, 0);
+    
+
 }

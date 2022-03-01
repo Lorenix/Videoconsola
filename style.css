@@ -1,5 +1,5 @@
 body { 
-    background-color: antiquewhite; 
+    background-color: rgb(129, 129, 129); 
     display: flex;
     align-items: center;
     align-content: center;
@@ -7,24 +7,26 @@ body {
 }   
 
 header { 
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; color: rgb(61, 61, 182);        
-    font-size: 55px;    
+    font-family: 'Seymour One', sans-serif;
+    color: rgb(255, 255, 255);        
+    font-size: 45px;    
     text-align: center; 
     display: flex; 
     justify-content: center; 
+
 }
 
 .box_Game_Boy {
     width: 350px;
     height: 550px;
-    background-color: rgb(137, 236, 190);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     border-radius: 15px 15px 80px;
-    box-shadow: 20px 20px 20px; 
+    box-shadow: 20px 20px 40px; 
 }
 
 .screen { 
@@ -46,7 +48,7 @@ header {
 }
 
 .logotype { 
-    font-family: fantasy; color: rgb(0, 0, 0);
+    font-family: fantasy; color: rgb(255, 255, 255);
     font-size: 12px;
     display: inline;
     align-self: flex-start;
@@ -72,7 +74,7 @@ header {
 .directions { 
     width: 80px;
     height: 80px;
-    background-color: rgb(137, 236, 190);
+    background-color: rgb(0, 0, 0);
     display: grid;
     grid-template-columns: auto auto auto; border-radius: 25px; 
 }
@@ -101,18 +103,8 @@ header {
     border-radius: 8px;
     text-align: center;
     font-family: monospace;
-    transform: rotate(314deg)
-}
-
-.box_buttons {
-    width: 100px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(180 180 180);
-    border-radius: 50px; 
-    transform: rotate(337deg);
+    color: white;
+    transform: rotate(325deg)
 }
 
 .b_button {
@@ -147,10 +139,20 @@ header {
     justify-content: space-between;
 }
 
+.box_buttons {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(180 180 180);
+    border-radius: 50px; 
+    transform: rotate(337deg);
+}
+
 .sound {
     width: 75px;
     height: 75px;
     background-color: rgba(192, 192, 192, 0);
     
-
 }

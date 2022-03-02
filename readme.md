@@ -2,7 +2,7 @@
 ***
 Realizar una consola con base en Html5 y CSS3, adjuntando readme y repositorio correspondiente.
 
-### [ Nintendo Game Boy tm ] 🎮 (Githubpages.io) 🖱
+### [ Nintendo Game Boy tm ] 🎮 (https://lorenix.github.io/Videoconsola/) 🖱
 ## Tecnologías 💻
 ***
 Una lista de las tecnologías utilizadas en el proyecto:
